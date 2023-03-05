@@ -6,8 +6,10 @@ name = "pypi"
 [packages]
 fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
+pytest = "*"
 
 [dev-packages]
+pytest = "*"
 
 [requires]
 python_version = "3.10"
